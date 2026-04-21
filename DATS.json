@@ -1,0 +1,235 @@
+{
+    "title": "Multicenter Single Subject Human MRI Phantom",
+    "description": "Longitudinal brain scans of a single human phantom acquired on multiple MRI devices across North America over a period of 11 years. In addition to the human brain images, lego phantom scans have been acquired in parallel for quality assessments over time across sites.",
+    "dates": [
+        {
+            "date": "2008-04-25 00:00:00",
+            "type": {
+                "value": "start date"
+            }
+        },
+        {
+            "date": "2019-04-15 00:00:00",
+            "type": {
+                "value": "end date"
+            }
+        }
+    ],
+    "creators": [
+        {
+            "name": "McGill Center for Integrative Neuroscience",
+            "abbreviation": "MCIN"
+        },
+	{
+		"name": "Alan C. Evans",
+		"roles": [
+			{
+				"value": "Principal Investigator"
+			}
+		]
+	}
+    ],
+    "types": [
+        {
+            "information": {
+                "value": "MRI",
+                "valueIRI": "http://uri.interlex.org/ilx_0779748"
+            }
+        },
+        {
+            "information": {
+                "value": "quality control subject",
+                "valueIRI": "http://uri.interlex.org/base/ilx_0381893"
+            }
+        }
+    ],
+    "version": "2.1",
+    "privacy": "open",
+    "distributions": [
+        {
+            "formats": [
+                "MINC",
+                "JSON"
+            ],
+            "size" : 76,
+            "unit" : {
+                "value": "GB"
+            },
+            "access" : {
+                "landingPage" : "https://phantom.loris.ca",
+				"authorizations": [
+					{
+						"value": "private"
+					}
+				]
+            }
+        }
+    ],
+    "isAbout": [
+		{
+        	"identifier": {
+            	"identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+				"identifierSource": "NCBI Taxonomy Database"
+        	},
+        	"name":"Homo sapiens"
+    	},
+        {
+              "identifier": {
+                  	"identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+				   	        "identifierSource": "NCBI Taxonomy Database"
+              },
+              "name":"Homo sapiens"
+        },
+        {
+            "name": "adult"
+        }
+    ],
+    "spatialCoverage": [
+        {
+            "name": "North America",
+            "description": "13 scanners in 6 sites accross North America"
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY-ND",
+            "version": "4.0"
+        }
+    ],
+    "aggregation": "instance of dataset",
+    "dimensions": [
+        {
+            "name" : {
+                "value": "resting BOLD"
+            }
+        },
+        {
+            "name" : {
+                "value": "fieldmap BOLD"
+            }
+        },
+        {
+            "name" : {
+                "value": "fieldmap DWI"
+            }
+        },
+        {
+            "name" : {
+                "value": "DWI 65 directions"
+            }
+        },
+        {
+            "name" : {
+                "value": "DWI 25 directions"
+            }
+        },
+        {
+            "name" : {
+                "value": "T1W"
+            }
+        },
+        {
+            "name" : {
+                "value": "T2W"
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "value": "Phantom"
+        },
+        {
+            "value": "MRI"
+        }
+    ],
+    "extraProperties": [
+        {
+            "category": "Total number of sessions",
+            "values": [
+                {
+                    "value": "521"
+                }
+            ]
+        },
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.png"
+				}
+			]
+		},
+		{
+			"category": "CONP_status",
+			"values": [
+				{
+					"value": "CONP"
+				}
+			]
+		},
+		{
+      		"category": "registrationPage",
+      		"values": [
+        		{
+          			"value": "https://phantom.loris.ca/login/request-account/"
+        		}
+      		]
+    	},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "2706"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "1"
+				}
+			]
+		},
+        {
+            "category": "origin_consortium",
+            "values": [
+                {
+                    "value": "IBIS"
+                }
+            ]
+        },
+        {
+            "category": "origin_institution",
+            "values": [
+                {
+                    "value": "McGill Centre for Integrative Neuroscience"
+                }
+            ]
+        },
+        {
+            "category": "origin_city",
+            "values": [
+                {
+                    "value": "Montreal"
+                }
+            ]
+        },
+        {
+            "category": "origin_province",
+            "values": [
+                {
+                    "value": "Quebec"
+                }
+            ]
+        },
+        {
+            "category": "origin_country",
+            "values": [
+                {
+                    "value": "Canada"
+                }
+            ]
+        }
+    ]
+}
